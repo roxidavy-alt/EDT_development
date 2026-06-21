@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="85ad8bc8-0aca-4cb5-b11b-51e8af49e043">
+  <producedTypes>
+    <objectType typeId="61103a75-3b87-4f29-9994-bf56806b133b" valueTypeId="e046b567-8fc9-4ee3-9734-381770a69d74"/>
+    <refType typeId="417426e4-3fa1-4e54-8408-5f3825f983d5" valueTypeId="b166339e-7613-44b4-ad4b-bc4dbec078ca"/>
+    <selectionType typeId="16b3f451-6197-46b7-95c3-390972f18b39" valueTypeId="7d88d8fc-b0a3-45c3-8406-aabfd13c6117"/>
+    <listType typeId="9ab89a1c-4a64-45b3-bac5-856dac31834e" valueTypeId="2e472775-a321-4505-ad0b-93c456293e53"/>
+    <managerType typeId="318daf06-f030-425a-99d9-5f97300c0f91" valueTypeId="e1c31c0a-2a1c-4312-855a-a9f608667701"/>
+  </producedTypes>
+  <name>КТРУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>КТРУ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КТРУ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КТРУ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="1a73e42f-b65c-4e5e-9758-991d5bde651a">
+    <name>КТРУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>КТРУ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4b17466d-3268-4e3d-b846-98e26d276ce9">
+    <name>ОписаниеКТРУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание КТРУ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="428c9117-c05b-460b-b726-996d8ccbf3ef">
+    <name>ОКДП2</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОКДП 2</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c5d8b033-2ebe-4590-9e82-b9634dcda0b9">
+    <name>ОграниченияИПреимущества</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ограничения и преимущества</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

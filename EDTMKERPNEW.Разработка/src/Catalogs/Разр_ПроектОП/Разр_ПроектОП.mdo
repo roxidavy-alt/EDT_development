@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ff6baf64-7bfe-49ed-b6a5-723a754560ca">
+  <producedTypes>
+    <objectType typeId="b5323560-3508-4f13-8f7a-3fac0b710291" valueTypeId="1e46f1c6-dd69-4e78-9363-c896c135ea0e"/>
+    <refType typeId="cc5af3d1-988d-4876-81ec-8a61ecd90d33" valueTypeId="72464636-7fac-4ba7-a068-30fef3f130f7"/>
+    <selectionType typeId="4c728672-7fe2-4db9-82e2-13321986d793" valueTypeId="f3e3ec60-8e53-42bf-9d76-2041a825e2b9"/>
+    <listType typeId="54298aaf-3d4b-4e61-a036-00b61c916a61" valueTypeId="a0eea1ec-aba1-43a8-b7b8-c0f827f19671"/>
+    <managerType typeId="2c3c6ae3-e457-4832-81ac-8667fd7c53ca" valueTypeId="55f4324a-b8d8-4b31-ac5d-76a469d79d15"/>
+  </producedTypes>
+  <name>Разр_ПроектОП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проект ОП</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Разр_ПроектОП.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Разр_ПроектОП.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Контрагенты</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="3fd06402-529c-41eb-900d-cdfb17268231">
+    <name>Новый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новый</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f0acd815-cc99-4ab3-9b94-3e4e6e3b7474">
+    <name>Вид</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Разр_ВидыОППроектов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="599642c1-fd9a-4426-8b8c-80e657122f40">
+    <name>ДатаОкончанияПроекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания проекта</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

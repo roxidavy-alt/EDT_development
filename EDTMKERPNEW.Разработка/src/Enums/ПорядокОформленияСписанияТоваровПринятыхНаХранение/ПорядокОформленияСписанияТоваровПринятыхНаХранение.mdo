@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="cf839282-7010-48fa-92bc-bcb838b4002e" extendedConfigurationObject="59776334-9a35-46f3-9a6f-f5be475c3646">
+  <producedTypes>
+    <refType typeId="8103d91e-cdc4-44f3-a248-2c7d6eff3fbb" valueTypeId="955aba28-a7e3-4d4a-9a0b-09782d64665f"/>
+    <listType typeId="2b1c75c5-ff65-4d83-9509-0c1016e61d79" valueTypeId="b479c735-3d9e-4791-8839-2f166047c78a"/>
+    <managerType typeId="64e9be69-230c-4010-90cd-8e1a4393f41d" valueTypeId="946d5d7e-fe13-4a08-aacf-4a774e0011d3"/>
+  </producedTypes>
+  <name>ПорядокОформленияСписанияТоваровПринятыхНаХранение</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="d792814c-3984-4b8d-8057-b65f98210b12" extendedConfigurationObject="6f0653f7-a892-4a0d-96ff-8b5405d15062">
+    <name>ОформлятьСписание</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="6bc15445-2b9e-45cc-bf0b-f4d817d35684" extendedConfigurationObject="ba8c1263-83a3-481b-a291-21d8afaacceb">
+    <name>ОформлятьВыкуп</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

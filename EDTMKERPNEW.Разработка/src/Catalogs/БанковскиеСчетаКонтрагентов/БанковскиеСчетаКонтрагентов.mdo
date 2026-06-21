@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="bc251a82-1148-4576-8069-f258beaee069" extendedConfigurationObject="aee671cc-5f58-44cc-b0d2-7aa0c28afdb0">
+  <producedTypes>
+    <objectType typeId="c51ef9f4-1293-4652-b4b4-a29f5f3da9af" valueTypeId="8b050988-b42a-48a6-8016-f18b42c64a5a"/>
+    <refType typeId="bed62aec-3170-4b33-85b3-94aa79d76332" valueTypeId="2fe8a4e8-990b-4dbf-9645-f0368b36a0f7"/>
+    <selectionType typeId="30f8d3c7-0478-44a3-8475-235c1840629f" valueTypeId="6c87ca83-c44e-4ceb-8be2-1610f90c673b"/>
+    <listType typeId="c35b329f-2486-4ae3-8435-50bf1bd5f9a2" valueTypeId="d8564c0a-bf7f-4fbc-bb3d-167c08f4bab1"/>
+    <managerType typeId="c14f6c7e-1801-4668-b8eb-e79f10e8fe16" valueTypeId="e625b70e-a9ca-4d05-b2a9-c032ec38708f"/>
+  </producedTypes>
+  <name>БанковскиеСчетаКонтрагентов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cbf9c61c-83e2-4745-bad8-96997c51d2dd">
+  <name>Разр_ВводШтрихкодаОдиночный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ввод штрихкода одиночный</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

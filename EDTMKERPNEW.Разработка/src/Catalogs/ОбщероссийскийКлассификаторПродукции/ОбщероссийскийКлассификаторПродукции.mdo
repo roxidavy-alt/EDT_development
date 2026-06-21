@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="fd9607e3-6d59-420a-b0df-ef765d885b07" extendedConfigurationObject="f188ae5c-a748-4ff2-bf39-b665b8615f1f">
+  <producedTypes>
+    <objectType typeId="9f120a81-26b5-4973-a0df-42c3b23a98d0" valueTypeId="9f1d79ee-f169-46d3-b33f-0dc737d2583a"/>
+    <refType typeId="a54f95cc-e083-4abc-8e44-2bf22b138aa4" valueTypeId="c72e767c-d6eb-40d5-9781-12c9a2fdab55"/>
+    <selectionType typeId="9293e7cf-82c2-4f6a-a990-f566df69def0" valueTypeId="bf40ee53-7772-4864-ac47-0193544b9a77"/>
+    <listType typeId="54a897cc-67fc-4f5a-b178-ab4779abf430" valueTypeId="9577d485-df39-477a-ac65-38783bd4b9d8"/>
+    <managerType typeId="269f0d6a-2ca0-45c8-85cd-e1d0f21872c1" valueTypeId="b9c08071-b8dc-41b6-b615-1912d38ed17b"/>
+  </producedTypes>
+  <name>ОбщероссийскийКлассификаторПродукции</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

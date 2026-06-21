@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0e9a2193-34cd-401b-9c66-7414ebd25cb0" extendedConfigurationObject="be0a4445-f91d-4e16-b79d-3acfeee43b61">
+  <producedTypes>
+    <containerType typeId="7ee799f5-e316-462f-b507-cc2c3ae2cfdb" valueTypeId="ada9ef4a-f3e8-49f1-87ad-151c7acc57d4"/>
+  </producedTypes>
+  <name>GTIN</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>String</type>
+      </types>
+      <stringQualifiers>
+        <length>14</length>
+      </stringQualifiers>
+    </typeExtension>
+  </extension>
+</mdclass:DefinedType>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="be1f9568-d29a-41e1-992f-7538420530df" extendedConfigurationObject="ce15c568-c6b7-4456-ade6-b3c7e1e00080">
+  <producedTypes>
+    <refType typeId="3ee5d643-729d-41cf-bc1d-0683b78df86d" valueTypeId="c2603539-4b4a-4b65-b6fb-b3c49650770a"/>
+    <listType typeId="6be5d1ee-014f-4924-8e1d-de974b8b1a9b" valueTypeId="f2427fa7-6f6b-4eff-ab7f-d2d7157c7354"/>
+    <managerType typeId="e44128ae-bd82-4abe-ae88-e9c360b98b0c" valueTypeId="9881e107-0f74-46e3-9360-ae4633b1eb2c"/>
+  </producedTypes>
+  <name>ВариантыКурсаДоговора</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Enum>

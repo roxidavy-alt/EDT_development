@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5c9063c7-292f-4d6f-b6fa-1b07df6d3fdc" extendedConfigurationObject="03503ac6-a4b9-4d70-b0ef-949dac7b8de4">
+  <producedTypes>
+    <objectType typeId="a7d54749-e8ab-4da0-bd8e-5f9c1af5dcba" valueTypeId="82f83ad9-ffc6-4658-9c08-320dc15c354d"/>
+    <refType typeId="cb6aa58c-ce28-49df-b74a-fa0737248749" valueTypeId="3b51da88-4384-494c-a033-d4e88cafbdfc"/>
+    <selectionType typeId="43e103f3-efd9-494a-8e21-a3c7f28e7077" valueTypeId="0efe725b-3ea9-402a-942e-c4a2fb5c5e81"/>
+    <listType typeId="812d0a28-6faa-419f-8fd1-1e2efc55ac14" valueTypeId="9fc65d89-0673-4725-bb53-a3fc95825914"/>
+    <managerType typeId="e5ded77d-3902-46ed-94e8-178881667806" valueTypeId="a57ce978-2e1e-4268-ac93-ba5e8d96a39e"/>
+  </producedTypes>
+  <name>ЭтапПроизводства2_2</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <managerModule>Extended</managerModule>
+  </extension>
+  <forms uuid="45e0906a-9bcb-456a-9963-d8e7bc913439" extendedConfigurationObject="e695ca3f-99a4-4bf5-b023-d59954427845">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <templates uuid="bc94d183-f91e-4a80-9a64-8afaf2ad98a3">
+    <name>Разр_ЯрлыкКороба58x30</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ярлык короба 58х30</value>
+    </synonym>
+  </templates>
+  <templates uuid="f5087274-fb55-4d48-9811-4174480a7d8c">
+    <name>Разр_ЭтикеткаКомплект1РУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Этикетка комплект1 РУ</value>
+    </synonym>
+  </templates>
+</mdclass:Document>

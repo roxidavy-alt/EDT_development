@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="10b86f4e-ea4e-4054-a8c4-3d65eecf5119" extendedConfigurationObject="32397654-efcb-4ed3-ae6b-309c4a503ab6">
+  <producedTypes>
+    <objectType typeId="8f361d5d-8d73-472a-8f53-09f0c7b11f52" valueTypeId="611625e3-ebec-4faf-bf86-6f901befea61"/>
+    <managerType typeId="87a21a98-cdb8-4c03-8c42-4c8f54262c62" valueTypeId="e6588038-40d1-4f2d-b780-b37b05dab9c0"/>
+  </producedTypes>
+  <name>ПечатьСчетовНаОплату</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <managerModule>Extended</managerModule>
+  </extension>
+  <templates uuid="9cf71107-9af1-48e6-998f-8a39161a2de3" extendedConfigurationObject="9adb21fb-c6cf-4633-980a-5791f089cec7">
+    <name>ПФ_MXL_СчетНаОплату</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicTemplateExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <template>Extended</template>
+    </extension>
+  </templates>
+</mdclass:DataProcessor>

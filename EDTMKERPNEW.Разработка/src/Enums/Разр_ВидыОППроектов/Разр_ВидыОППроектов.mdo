@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35e33afa-5c2e-41bf-bbf4-d0e428b8750c">
+  <producedTypes>
+    <refType typeId="248a9d85-cafe-4019-880f-9af861699808" valueTypeId="d5510e76-a63e-4409-87b7-1703debcc1d1"/>
+    <listType typeId="73445bd7-abbf-43c3-8f7d-9c66b06753c7" valueTypeId="12be9048-f6e7-49f6-9729-c9e175cc19fc"/>
+    <managerType typeId="fd2148e7-7855-4d45-aa63-74e54dbabdfb" valueTypeId="fe67b975-002e-417a-b81f-f7585f6859b6"/>
+  </producedTypes>
+  <name>Разр_ВидыОППроектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды ОП Проектов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7d59a211-479f-4997-b742-952463b85a49">
+    <name>Контракт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контракт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f7024082-1915-434b-99af-52c7ea29facf">
+    <name>ЧастнаяКлиника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Частная клиника</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

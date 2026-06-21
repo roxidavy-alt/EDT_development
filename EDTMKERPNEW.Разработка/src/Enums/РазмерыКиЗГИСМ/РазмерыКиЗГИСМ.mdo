@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5fd4ad69-9b90-417f-8110-e5da02485c4b" extendedConfigurationObject="be3cc144-3191-4043-9c1d-19e80d4f3d04">
+  <producedTypes>
+    <refType typeId="08ad3637-7c76-4ef2-bfae-eff7bdd8e3d6" valueTypeId="f88b21b6-65cd-4fd6-a64b-63f7d9bcec3f"/>
+    <listType typeId="72fb0e0e-6392-400e-bbdd-0625ffd56482" valueTypeId="3bed6f0e-94a2-46d6-b76f-956ed34646e9"/>
+    <managerType typeId="7fbdc434-12a2-4c3e-9d36-530c8463cc68" valueTypeId="340cf725-b396-415f-ae84-4573700be6c6"/>
+  </producedTypes>
+  <name>РазмерыКиЗГИСМ</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Enum>
