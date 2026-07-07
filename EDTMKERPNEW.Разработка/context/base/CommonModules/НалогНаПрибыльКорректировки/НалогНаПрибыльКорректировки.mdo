@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a6bd04d5-1c4e-46ca-ac90-ae956bfc2ac2">
+  <name>НалогНаПрибыльКорректировки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Налог на прибыль корректировки</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Income tax adjustments</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

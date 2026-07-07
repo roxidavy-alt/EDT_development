@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58623113-65e2-4f5f-a6cf-689719acf56e">
+  <name>ПлановаяКалькуляцияСтруктурыЗаказа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Плановая калькуляция структуры заказа</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Product standard cost of order structure</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

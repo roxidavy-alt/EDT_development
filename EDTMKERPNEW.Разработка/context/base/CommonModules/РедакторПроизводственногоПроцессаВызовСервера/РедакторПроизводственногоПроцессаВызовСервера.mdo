@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="165c552a-df38-4b84-bdac-7e597f254e48">
+  <name>РедакторПроизводственногоПроцессаВызовСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редактор производственного процесса вызов сервера</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Production process editor server call</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

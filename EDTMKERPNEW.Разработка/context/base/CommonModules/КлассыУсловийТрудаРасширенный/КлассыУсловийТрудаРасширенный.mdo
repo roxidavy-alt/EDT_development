@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="edb18e59-9f5f-4ff0-a8e3-2b4180f9986a">
+  <name>КлассыУсловийТрудаРасширенный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Классы условий труда расширенный</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Classes of working conditions advanced</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

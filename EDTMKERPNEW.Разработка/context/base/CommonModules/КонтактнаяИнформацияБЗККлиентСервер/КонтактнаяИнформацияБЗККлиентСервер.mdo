@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dee5983e-63ff-4a44-9665-be41be887b41">
+  <name>КонтактнаяИнформацияБЗККлиентСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контактная информация БЗК клиент сервер</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>PCL contact details client server</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

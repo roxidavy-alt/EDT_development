@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ea8773b4-9580-423c-8d7c-4f7577cda839">
+  <name>ИнвентаризацияОСЛокализация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Инвентаризация ОС (локализация)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Fixed assets — Physical inventory (localization)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36597589-5c10-4758-b385-34fb7fa805a2">
+  <name>ТерриторииИПомещенияКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Территории и помещения клиент</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Territories and premises client</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

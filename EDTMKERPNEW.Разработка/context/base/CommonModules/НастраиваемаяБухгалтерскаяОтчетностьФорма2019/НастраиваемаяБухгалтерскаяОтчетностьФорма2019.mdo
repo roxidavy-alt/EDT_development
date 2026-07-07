@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da6a6f5f-6781-492f-b1d5-79837938d40b">
+  <name>НастраиваемаяБухгалтерскаяОтчетностьФорма2019</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настраиваемая бухгалтерская отчетность форма 2019</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Настраиваемая бухгалтерская отчетность форма 2019</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>
