@@ -3119,6 +3119,35 @@
             <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
           </items>
           <items xsi:type="form:Button">
+            <name>ТоварыОчиститьТабличныеЧасти</name>
+            <id>1528</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ТоварыОчиститьТабличныеЧастиРасширеннаяПодсказка</name>
+              <id>1529</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Form.Command.ОчиститьТабличныеЧасти</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <backColor xsi:type="core:ColorDef">
+              <red>255</red>
+              <green>102</green>
+            </backColor>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
+          <items xsi:type="form:Button">
             <name>ТоварыСкопироватьСтроки</name>
             <id>670</id>
             <visible>true</visible>
@@ -6717,6 +6746,11 @@ business</value>
           <horizontalAlign>Left</horizontalAlign>
           <autoFill>true</autoFill>
         </autoCommandBar>
+        <handlers xsi:type="form:EventHandlerExtension">
+          <event>OnChange</event>
+          <name>Разр_Разр_ШтрихкодыПриИзмененииВместо</name>
+          <callType>Override</callType>
+        </handlers>
         <searchStringAddition>
           <name>Разр_ШтрихкодыСтрокаПоиска</name>
           <id>1511</id>
@@ -7844,11 +7878,6 @@ business</value>
     </items>
     <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
-  <handlers xsi:type="form:EventHandlerExtension">
-    <event>NotificationProcessing</event>
-    <name>Разр_ОбработкаОповещенияПосле</name>
-    <callType>After</callType>
-  </handlers>
   <excludedCommands>Post</excludedCommands>
   <excludedCommands>PostAndClose</excludedCommands>
   <excludedCommands>SetDeletionMark</excludedCommands>
@@ -8163,6 +8192,32 @@ business</value>
         <callType>Override</callType>
       </handlers>
     </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОчиститьТабличныеЧасти</name>
+    <title>
+      <key>ru</key>
+      <value>Очистить табличные части</value>
+    </title>
+    <id>1000002</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Очистить табличные части</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.ОчиститьЗначение</picture>
+    </picture>
+    <action xsi:type="form:FormExtensionCommandHandlerContainer">
+      <handlers>
+        <name>Разр_ОчиститьТабличныеЧастиВместо</name>
+        <callType>Override</callType>
+      </handlers>
+    </action>
+    <representation>TextPicture</representation>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>

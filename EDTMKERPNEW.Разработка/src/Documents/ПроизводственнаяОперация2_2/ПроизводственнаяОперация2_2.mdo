@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ad1d8361-4f54-46f5-b1bb-d5efc68403e3" extendedConfigurationObject="771d1e13-85f9-420f-b53c-16e8c0ec0878">
+  <producedTypes>
+    <objectType typeId="97bc74d6-ba7d-48ee-8e27-a41af420bc5b" valueTypeId="97aabc6a-cc2a-4f0c-8305-07d74f9d2a9b"/>
+    <refType typeId="e784cea5-ac0c-4995-a6a1-6b2962f431de" valueTypeId="18c39340-0716-46d0-9115-4874c4c78f7b"/>
+    <selectionType typeId="83808d6c-ff4f-473d-b869-1cabdff16ad5" valueTypeId="2bb813e5-d149-4482-a2ce-dabc3a9ca974"/>
+    <listType typeId="6e4911dd-b2ef-4680-bdd4-8ade7f5db7a9" valueTypeId="ee22b3b0-a461-4bc8-9f15-cb72fa86cfc3"/>
+    <managerType typeId="daa771d8-483f-4a34-9c78-85aff5fdf33a" valueTypeId="7f83e129-0d14-407d-a59d-b6b49f743158"/>
+  </producedTypes>
+  <name>ПроизводственнаяОперация2_2</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <managerModule>Extended</managerModule>
+  </extension>
+  <templates uuid="f2264db4-cdce-4f58-9fa6-7117208c590f">
+    <name>Разр_ПФ_MXL_НарядНаСборкуКомплекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наряд на сборку комплекта</value>
+    </synonym>
+  </templates>
+</mdclass:Document>

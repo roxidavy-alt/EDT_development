@@ -39,6 +39,8 @@
     </extension>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Производство</subsystems>
+  <subsystems>Subsystem.Администрирование</subsystems>
   <styleItems>StyleItem.ЦветФонаВыделения</styleItems>
   <styleItems>StyleItem.ГиперссылкаЦвет</styleItems>
   <styleItems>StyleItem.ЦветТекстаНевыбраннойКартинки</styleItems>
@@ -49,6 +51,7 @@
   <styleItems>StyleItem.ГруппаВариантовОтчетовЦвет</styleItems>
   <styleItems>StyleItem.СерыйЦветТекста1</styleItems>
   <styleItems>StyleItem.ЦветТекстаЗаголовокОтчетаВТакси</styleItems>
+  <styleItems>StyleItem.ФонУправляющегоПоля</styleItems>
   <commonPictures>CommonPicture.ЗаполнитьПоШаблону</commonPictures>
   <commonPictures>CommonPicture.Внимание16</commonPictures>
   <commonPictures>CommonPicture.Отчеты</commonPictures>
@@ -64,15 +67,19 @@
   <commonPictures>CommonPicture.СостоянияСтрок</commonPictures>
   <commonPictures>CommonPicture.ВставкаСтрок</commonPictures>
   <commonPictures>CommonPicture.ПодобратьТоварыИзЗаказа</commonPictures>
+  <commonPictures>CommonPicture.ВУпаковочныйЛист</commonPictures>
   <roles>Role.Разр_ОсновнаяРоль</roles>
   <commonModules>CommonModule.УправлениеПечатью</commonModules>
   <commonModules>CommonModule.Разр_ЗаполнениеТЧПоЯрлыкамКлиент</commonModules>
   <commonModules>CommonModule.Разр_ЗаполнениеТЧПоЯрлыкамСервер</commonModules>
+  <eventSubscriptions>EventSubscription.Разр_ОбработкаПроведенияШтрихкоды</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.Разр_ОбработкаОтменаПроведенияШтрихКоды</eventSubscriptions>
   <definedTypes>DefinedType.GTIN</definedTypes>
   <definedTypes>DefinedType.ДенежнаяСуммаЛюбогоЗнака</definedTypes>
   <definedTypes>DefinedType.ДенежнаяСуммаНеотрицательная</definedTypes>
   <definedTypes>DefinedType.Артикул</definedTypes>
   <definedTypes>DefinedType.Цена</definedTypes>
+  <commonCommands>CommonCommand.Разр_ПоказатьЯрлыки</commonCommands>
   <commonForms>CommonForm.Разр_ВводШтрихкодаОдиночный</commonForms>
   <commonForms>CommonForm.Разр_ВводШтрихкодаМассовый</commonForms>
   <catalogs>Catalog.Номенклатура</catalogs>
@@ -138,12 +145,23 @@
   <catalogs>Catalog.РесурсныеСпецификации</catalogs>
   <catalogs>Catalog.СтатьиКалькуляции</catalogs>
   <catalogs>Catalog.ВидыЦенПоставщиков</catalogs>
+  <catalogs>Catalog.КонтролируемыеПартии</catalogs>
+  <catalogs>Catalog.СкладскиеПомещения</catalogs>
+  <catalogs>Catalog.СкладскиеЯчейки</catalogs>
+  <catalogs>Catalog.Разр_ДополнительныеНастройки</catalogs>
   <documents>Document.ЗаказКлиента</documents>
   <documents>Document.ЭтапПроизводства2_2</documents>
   <documents>Document.ПередачаСырьяПереработчику</documents>
   <documents>Document.ПередачаТоваровХранителю</documents>
   <documents>Document.ОтчетПереработчика2_5</documents>
   <documents>Document.ЗаказПереработчику2_5</documents>
+  <documents>Document.ДвижениеПродукцииИМатериалов</documents>
+  <documents>Document.ПеремещениеТоваров</documents>
+  <documents>Document.ЗаказНаПеремещение</documents>
+  <documents>Document.УпаковочныйЛист</documents>
+  <documents>Document.ПересчетТоваров</documents>
+  <documents>Document.РеализацияТоваровУслуг</documents>
+  <documents>Document.ПроизводственнаяОперация2_2</documents>
   <enums>Enum.ЕдиницыИзмеренияВремени</enums>
   <enums>Enum.ВариантыОформленияПродажи</enums>
   <enums>Enum.ВариантыИспользованияХарактеристикНоменклатуры</enums>
@@ -175,7 +193,15 @@
   <enums>Enum.СпособыРаспределенияЗатратНаВыходныеИзделия</enums>
   <enums>Enum.ГруппировкиЗатратВЗаказеПереработчику</enums>
   <enums>Enum.ВариантыОформленияУслугДокументовПереработки</enums>
+  <enums>Enum.СтатусыДвиженияПродукцииИМатериалов</enums>
+  <enums>Enum.СтатусыПеремещенийТоваров</enums>
+  <enums>Enum.ВидыУпаковочныхЛистов</enums>
+  <enums>Enum.ТипыИзмеряемыхВеличин</enums>
+  <enums>Enum.СтатусыПересчетовТоваров</enums>
+  <enums>Enum.СтатусыРеализацийТоваровУслуг</enums>
   <dataProcessors>DataProcessor.ПечатьСчетовНаОплату</dataProcessors>
+  <dataProcessors>DataProcessor.КонсольЗапросов</dataProcessors>
+  <dataProcessors>DataProcessor.УниверсальныйОбменДаннымиXML</dataProcessors>
   <informationRegisters>InformationRegister.Разр_ЯрлыкиКоробов</informationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СтатьиАктивовПассивов</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СтатьиРасходов</chartsOfCharacteristicTypes>

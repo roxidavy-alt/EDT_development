@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1c63a8b7-7f85-4ff5-92e9-935a85ab0853" extendedConfigurationObject="bfe6a2e5-ee3b-4791-b965-42bfc518d891">
+  <name>НСИ</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:SubsystemExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <content>Extended</content>
+    <commandInterface>Extended</commandInterface>
+  </extension>
+  <content>InformationRegister.Разр_ЯрлыкиКоробов</content>
+  <content>DataProcessor.КонсольЗапросов</content>
+  <content>Catalog.Разр_ДополнительныеНастройки</content>
+  <parentSubsystem>Subsystem.Производство</parentSubsystem>
+</mdclass:Subsystem>

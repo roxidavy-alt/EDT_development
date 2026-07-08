@@ -16,6 +16,8 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="20c4c472-6172-4b13-8300-4425eff407b3">
     <name>Штрихкод</name>
@@ -50,11 +52,11 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <resources uuid="77657845-8190-4030-b7c3-a06887c2732b">
-    <name>Отгружен</name>
+  <resources uuid="bb9435f3-03b6-41a3-9ca0-51d5b3abf14e">
+    <name>ПереданПереработчику</name>
     <synonym>
       <key>ru</key>
-      <value>Отгружен</value>
+      <value>Передан переработчику</value>
     </synonym>
     <type>
       <types>Boolean</types>
@@ -80,6 +82,21 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
+  <resources uuid="77657845-8190-4030-b7c3-a06887c2732b">
+    <name>Отгружен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отгружен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
   <resources uuid="0c9241d6-6613-436e-a57e-ef7b91640256">
     <name>Перемещен</name>
     <synonym>
@@ -87,7 +104,52 @@
       <value>Перемещен</value>
     </synonym>
     <type>
-      <types>DocumentRef.ПередачаТоваровХранителю</types>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c8e1242a-8a12-47d7-bae4-068d43114acf">
+    <name>Пересчитан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пересчитан</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1c8d1589-2d87-4720-823d-25a7288c5a2c">
+    <name>Упакован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Упакован</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e9464be1-6130-4e57-81b6-31db4a659d15">
+    <name>Передвинут</name>
+    <synonym>
+      <key>ru</key>
+      <value>Передвинут</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -103,6 +165,28 @@
     </synonym>
     <type>
       <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="776e2013-bb05-4042-99b7-154a0aaaffad">
+    <name>ДокументДвижения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ движения</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.РеализацияТоваровУслуг</types>
+      <types>DocumentRef.ДвижениеПродукцииИМатериалов</types>
+      <types>DocumentRef.ПередачаТоваровХранителю</types>
+      <types>DocumentRef.ПересчетТоваров</types>
+      <types>DocumentRef.ЭтапПроизводства2_2</types>
+      <types>DocumentRef.ПеремещениеТоваров</types>
+      <types>DocumentRef.УпаковочныйЛист</types>
+      <types>DocumentRef.ОтчетПереработчика2_5</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

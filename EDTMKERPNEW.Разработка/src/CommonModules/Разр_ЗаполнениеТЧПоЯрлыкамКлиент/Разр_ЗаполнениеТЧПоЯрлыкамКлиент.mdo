@@ -6,5 +6,4 @@
     <value>Заполнение ТЧ по ярлыкам клиент</value>
   </synonym>
   <clientManagedApplication>true</clientManagedApplication>
-  <clientOrdinaryApplication>true</clientOrdinaryApplication>
 </mdclass:CommonModule>
