@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a49c9bf2-cae0-47d3-913c-d4fc5b510856">
+  <name>Разр_ОбработкаПроведенияШтрихкоды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработка проведения штрихкоды</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.ПеремещениеТоваров</types>
+    <types>DocumentObject.РеализацияТоваровУслуг</types>
+    <types>DocumentObject.УпаковочныйЛист</types>
+    <types>DocumentObject.ДвижениеПродукцииИМатериалов</types>
+    <types>DocumentObject.ОтчетПереработчика2_5</types>
+    <types>DocumentObject.ПередачаТоваровХранителю</types>
+    <types>DocumentObject.ПересчетТоваров</types>
+  </source>
+  <event>Posting</event>
+  <handler>CommonModule.Разр_ЗаполнениеТЧПоЯрлыкамСервер.ПроведениеПоШтрихкодам</handler>
+</mdclass:EventSubscription>

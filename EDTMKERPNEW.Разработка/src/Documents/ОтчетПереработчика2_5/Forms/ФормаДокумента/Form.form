@@ -3217,6 +3217,35 @@ to products</value>
               <representationInContextMenu>Auto</representationInContextMenu>
             </items>
             <items xsi:type="form:Button">
+              <name>ВыходныеИзделияОчиститьТабличныеЧасти</name>
+              <id>2203</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <extendedTooltip>
+                <name>ВыходныеИзделияОчиститьТабличныеЧастиРасширеннаяПодсказка</name>
+                <id>2204</id>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <commandName>Form.Command.ОчиститьТабличныеЧасти</commandName>
+              <representation>Auto</representation>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <placementArea>UserCmds</placementArea>
+              <backColor xsi:type="core:ColorDef">
+                <red>255</red>
+                <green>102</green>
+              </backColor>
+              <representationInContextMenu>Auto</representationInContextMenu>
+            </items>
+            <items xsi:type="form:Button">
               <name>ВыходныеИзделияСкопироватьСтроки</name>
               <id>956</id>
               <visible>true</visible>
@@ -6817,6 +6846,35 @@ to products</value>
             <placementArea>UserCmds</placementArea>
             <representationInContextMenu>Auto</representationInContextMenu>
           </items>
+          <items xsi:type="form:Button">
+            <name>МатериалыИРаботыЗаполнитьМатериалыПоПродукции</name>
+            <id>2199</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>МатериалыИРаботыЗаполнитьМатериалыПоПродукцииРасширеннаяПодсказка</name>
+              <id>2200</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Form.Command.ЗаполнитьМатериалыПоПродукции</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <backColor xsi:type="core:ColorDef">
+              <red>255</red>
+              <blue>255</blue>
+            </backColor>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
           <horizontalAlign>Left</horizontalAlign>
           <autoFill>true</autoFill>
         </autoCommandBar>
@@ -8185,6 +8243,35 @@ to products</value>
             <extInfo xsi:type="form:PopupGroupExtInfo">
               <representation>Auto</representation>
             </extInfo>
+          </items>
+          <items xsi:type="form:Button">
+            <name>УслугиЗаполнитьУслугиПоПродукции</name>
+            <id>2201</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>УслугиЗаполнитьУслугиПоПродукцииРасширеннаяПодсказка</name>
+              <id>2202</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Form.Command.ЗаполнитьУслугиПоПродукции</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <backColor xsi:type="core:ColorDef">
+              <green>255</green>
+              <blue>255</blue>
+            </backColor>
+            <representationInContextMenu>Auto</representationInContextMenu>
           </items>
           <horizontalAlign>Left</horizontalAlign>
           <autoFill>true</autoFill>
@@ -10601,11 +10688,6 @@ to products</value>
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <handlers xsi:type="form:EventHandlerExtension">
-    <event>NotificationProcessing</event>
-    <name>Разр_ОбработкаОповещенияПосле</name>
-    <callType>After</callType>
-  </handlers>
   <excludedCommands>Delete</excludedCommands>
   <excludedCommands>Post</excludedCommands>
   <excludedCommands>PostAndClose</excludedCommands>
@@ -11541,6 +11623,76 @@ to products</value>
         <callType>Override</callType>
       </handlers>
     </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ЗаполнитьМатериалыПоПродукции</name>
+    <title>
+      <key>ru</key>
+      <value>Заполнить материалы по продукции</value>
+    </title>
+    <id>1000002</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Заполнить материалы по продукции</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormExtensionCommandHandlerContainer">
+      <handlers>
+        <name>Разр_ЗаполнитьМатериалыПоПродукцииВместо</name>
+        <callType>Override</callType>
+      </handlers>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ЗаполнитьУслугиПоПродукции</name>
+    <title>
+      <key>ru</key>
+      <value>Заполнить услуги по продукции</value>
+    </title>
+    <id>1000003</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Заполнить услуги по продукции</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormExtensionCommandHandlerContainer">
+      <handlers>
+        <name>Разр_ЗаполнитьУслугиПоПродукцииВместо</name>
+        <callType>Override</callType>
+      </handlers>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОчиститьТабличныеЧасти</name>
+    <title>
+      <key>ru</key>
+      <value>Очистить табличные части</value>
+    </title>
+    <id>1000004</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Очистить табличные части</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.ОчиститьЗначение</picture>
+    </picture>
+    <action xsi:type="form:FormExtensionCommandHandlerContainer">
+      <handlers>
+        <name>Разр_ОчиститьТабличныеЧастиВместо</name>
+        <callType>Override</callType>
+      </handlers>
+    </action>
+    <representation>TextPicture</representation>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>

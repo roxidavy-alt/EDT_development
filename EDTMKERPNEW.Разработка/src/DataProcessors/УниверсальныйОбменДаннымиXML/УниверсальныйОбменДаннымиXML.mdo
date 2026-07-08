@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7b4273c0-96af-410e-8e68-737e040b9c3e" extendedConfigurationObject="c9035b0f-cfc4-4761-9ba0-a8aacfaa9c72">
+  <producedTypes>
+    <objectType typeId="bdd45ca3-4025-4a4f-83dd-28a7b0f37f64" valueTypeId="0f13cb2b-bf93-490a-b0ac-2ecda6784ca1"/>
+    <managerType typeId="17218d30-1aaf-41e5-b955-9018f014be59" valueTypeId="2cfb2fcf-515c-43b0-be74-b8944a6226c8"/>
+  </producedTypes>
+  <name>УниверсальныйОбменДаннымиXML</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:DataProcessor>

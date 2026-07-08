@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4a09fd8-2414-4e5a-8e70-a63b44bcb46c">
+  <name>Разр_ПоказатьЯрлыки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показать ярлыки</value>
+  </synonym>
+  <group>FormNavigationPanelGoTo</group>
+  <commandParameterType>
+    <types>DocumentRef.РеализацияТоваровУслуг</types>
+    <types>DocumentRef.ДвижениеПродукцииИМатериалов</types>
+    <types>DocumentRef.ПередачаТоваровХранителю</types>
+    <types>DocumentRef.ПересчетТоваров</types>
+    <types>DocumentRef.ПеремещениеТоваров</types>
+    <types>DocumentRef.УпаковочныйЛист</types>
+    <types>DocumentRef.ОтчетПереработчика2_5</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d8d98634-3cfe-4071-977d-e8a64957c597">
+  <producedTypes>
+    <objectType typeId="81b82dbb-7512-407d-9994-9012fa724136" valueTypeId="5e47bbe9-dc1e-472a-908c-344d0874a5c2"/>
+    <refType typeId="2f3dfbd0-76ea-4e6d-8ca1-69cb39be89cf" valueTypeId="d1379719-6d2d-446b-a6d8-358abd8bd437"/>
+    <selectionType typeId="d9ca7bc7-6e63-46d2-8232-dd467f1e7df3" valueTypeId="5b9878a8-9da9-4adf-a818-74ae560b22e4"/>
+    <listType typeId="82f20d50-b61a-4559-a9d9-e1e3671c4b9f" valueTypeId="0ddd9693-1916-406a-abb1-01fa819aefb5"/>
+    <managerType typeId="aad3df5d-75f5-4335-93c5-d37f9b06a8e1" valueTypeId="774b6c80-a425-4e31-b30a-8b2b9fd3307f"/>
+  </producedTypes>
+  <name>Разр_ДополнительныеНастройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные настройки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Разр_ДополнительныеНастройки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Разр_ДополнительныеНастройки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="fbbff485-6b07-456b-9664-b3e6eeb9c9c6">
+      <name>ОсновныеНастройки</name>
+      <description>Основные настройки</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <tabularSections uuid="cef8375b-f2bf-48f1-b2a3-b9922cbfaf43">
+    <producedTypes>
+      <objectType typeId="19da2880-a64a-474d-908d-6089e4ea4f38" valueTypeId="19a00ca3-fc45-49f5-af0d-bd753f86bce9"/>
+      <rowType typeId="5b66c22b-b3ff-4a16-b693-02f6e86dad65" valueTypeId="e3f232c6-10a4-4c57-aca0-fbd27eb0f413"/>
+    </producedTypes>
+    <name>Стерильные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стерильные</value>
+    </synonym>
+    <attributes uuid="d04d75bc-a7bc-467a-8ad9-035074a878c6">
+      <name>ВидНоменклатуры</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид номенклатуры</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыНоменклатуры</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+  <tabularSections uuid="5edcb63a-bf41-4f4e-b266-100dde894cee">
+    <producedTypes>
+      <objectType typeId="368a73ac-c05b-48a6-858e-84dda5dabe77" valueTypeId="796e3aef-37a6-4513-bb48-407a8f105c06"/>
+      <rowType typeId="02173e07-a8a6-44dd-addb-e5a861d06cf9" valueTypeId="4b0c9acc-7e62-4c39-8daa-f197172bdabb"/>
+    </producedTypes>
+    <name>Нестерильные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нестерильные</value>
+    </synonym>
+    <attributes uuid="53845f68-f8fd-4a64-b3d8-9aaa833e10be">
+      <name>ВидНоменклатуры</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид номенклатуры</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыНоменклатуры</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+</mdclass:Catalog>
